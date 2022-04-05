@@ -1,0 +1,22 @@
+div.pageTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+div.linkBox {
+  display: flex;
+  flex-direction: column;
+  div.linkItem {
+    margin-bottom: 1rem;
+    a {
+      display: inline-block;
+      font-size: 1.5rem;
+      color: #0000EE;
+      text-decoration: underline;
+    }
+  }
+}

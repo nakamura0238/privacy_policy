@@ -1,0 +1,34 @@
+div.pageTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+div.pageTitle h1 {
+  font-size: 2rem;
+}
+
+div.linkBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.linkBox div.linkItem {
+  margin-bottom: 1rem;
+}
+
+div.linkBox div.linkItem a {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #0000EE;
+  text-decoration: underline;
+}

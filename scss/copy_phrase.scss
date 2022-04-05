@@ -1,0 +1,58 @@
+div.topBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+  a {
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+
+div.sectionWrapper {
+  padding: 20px;
+}
+
+section.termsBox {
+  margin-bottom: 3rem;
+
+  h2 {
+    padding: 10px 0;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-bottom: 5px solid #6F8AA9;
+  }
+
+  section.innerSection {
+    padding: 10px;
+  }
+
+  h3 {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  p.main {
+    padding-left: 1rem;
+    line-height: 1.6rem;
+  }
+  p.item {
+    padding-left: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+  }
+  
+  a {
+    display: inline-block;
+    margin: 20px 0;
+    color: #0000EE;
+    text-decoration: underline;
+  }
+
+
+}
